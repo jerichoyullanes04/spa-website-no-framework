@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 20px 60px 20px 60px;
+}
+
+.nav-links {
+    display: flex;
+    width: 200px;
+    align-items: normal;
+    justify-content: space-around;
+    list-style-type: none;    
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 0px 150px 0px 150px;
+}
