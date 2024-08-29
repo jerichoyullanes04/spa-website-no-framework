@@ -19,10 +19,10 @@ const route = (event) => {
 
 // Define routes as key-value pairs, where keys are the URL paths and values are the file paths.
 const routes = {
-    404 : "/pages/404.html", // The path for the 404 error page.
-    "/" : "/pages/index.html", // The path for the homepage.
-    "/about" : "/pages/about.html", // The path for the about page.
-    "/contact" : "/pages/contact.html", // The path for the contact page.
+    404 : "pages/404.html", // The path for the 404 error page.
+    "/" : "pages/index.html", // The path for the homepage.
+    "/about" : "pages/about.html", // The path for the about page.
+    "/contact" : "pages/contact.html", // The path for the contact page.
 };
 
 // This function loads the content of the current route.
