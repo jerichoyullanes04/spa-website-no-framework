@@ -5,19 +5,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vanilla Single Page Application</title>
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     </head>
     <body>
         <div id="root">
             <nav id="main-nav" class="navbar">
                 <span class="nav-logo">Vanilla JavaScript SPA</span>
-                <ul class="nav-links">
-                    <li><a href="/" onclick="route()">Home</a></li>
-                    <li><a href="/about" onclick="route()">About</a></li>
-                    <li><a href="/contact" onclick="route()">Contact</a></li>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="/" onclick="route()" class="nav-link">Home</a></li>
+                    <li><a href="/about" onclick="route()" class="nav-link">About</a></li>
+                    <li><a href="/contact" onclick="route()" class="nav-link">Contact</a></li>
                 </ul>
+                
+                <!--         
+                @TODO: Mobile Nav Bar
+                
+                <input type="checkbox" id="mobile-nav-active">
+                <label for="mobile-nav-active" class="open-mobile-nav">
+                    
+                </label>    
+                <label for="mobile-nav-active" class="close-mobile-nav">
+                    <i id="nav-menu" class="bi bi-x"></i>
+                </label> 
+                -->
+                
+                <!-- Temporary Mobile Nav Bar Button but No Function -->
+                <i id="nav-menu" class="bi bi-list"></i>
+                
             </nav>
             <div id="main-page"></div>
         </div>
         <script src="scripts/router.js"></script>
+        <script src="scripts/script.js"></script>   
     </body>
 </html>
